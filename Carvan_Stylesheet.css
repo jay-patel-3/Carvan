@@ -1,0 +1,800 @@
+/********************************************Carvan Stylesheet***************************************************/
+
+*
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carvan_slogans
+{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+hr
+{
+    color: black;
+    border-color: black;
+    height: 3px;
+    border-width:medium;
+}
+body
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#href_links
+{
+    text-decoration: none;
+    color: black;
+}
+#href_links:hover
+{
+    color: blue;
+}
+
+
+
+
+/*Category Headings (Home, Contact Us, Brands, etc)*/
+.category_headings_home,
+.category_headings_about_us,
+.category_headings_contact_us,
+.category_headings_preowned
+{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*Horizontal Navbar*/
+.carvan_header
+{
+    margin-left: 30px;
+    margin-bottom: 25px;
+    font-size: 70px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    padding-right: 70px;
+}
+.carvan_body
+{
+    text-align: center;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+.carvan_menu
+{
+    background-color: black;
+    border-style:solid;
+    border-color: black;
+    width: 100%;
+}
+
+#Carvan_Home_Page_Button,
+#Carvan_About_Us_Button,
+#Carvan_Car_Brands_Button,
+#Carvan_Pre-Owned_Button,
+#Carvan_Car_List_Button,
+#Carvan_Contact_Us_Button,
+#Carvan_Submit_Button,
+#Carvan_Reset_Button
+{
+	background:linear-gradient(to bottom, azure 5%, azure 100%);
+	background-color:white;
+	border-radius:5px;
+    border-color: black;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 23px;
+	text-decoration:none;
+    margin-top: 0px;
+    margin-left: 55px;
+}
+
+#Carvan_Home_Page_Button:hover,
+#Carvan_About_Us_Button:hover,
+#Carvan_Car_Brands_Button:hover,
+#Carvan_Pre-Owned_Button:hover,
+#Carvan_Car_List_Button:hover,
+#Carvan_Contact_Us_Button:hover,
+#Carvan_Submit_Button:hover, 
+#Carvan_Reset_Button:hover
+{
+	background:linear-gradient(to bottom, rgb(0, 0, 100) 15%, rgb(0, 0, 100) 100%);
+	background-color:rgb(0, 0, 100);
+    color: white;
+}
+
+#Carvan_Home_Page_Button:active,
+#Carvan_About_Us_Button:active,
+#Carvan_Car_Brands_Button:active,
+#Carvan_Car_List_Button:active,
+#Carvan_Pre-Owned_Button:active,
+#Carvan_Contact_Us_Button:active,
+#Carvan_Submit_Button:active, 
+#Carvan_Reset_Button:active
+{
+    background-color: white;
+	position:relative;
+	top:1px;
+}
+#Carvan_Settings
+{
+    width: 95px;
+    height: 70px;
+    position: relative;
+    left: 210px;
+}
+#Carvan_Submit_Button
+{
+    margin-left: 0px;
+}
+
+
+
+
+/*Home Page*/
+.lincoln
+{
+    height: 230px;
+    width: 530px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+.lincoln2
+{
+    height: 230px;
+    width: 380px;
+    margin-right: 150px;
+    margin-bottom: 120px;
+}
+.frontview_car
+{
+    height: 230px;
+    width: 380px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+.square_bullets
+{
+    list-style-type: square;
+    color: black;
+    align-content: center;
+}
+.home_page_contents
+{
+    text-align: center;
+    list-style-type: square;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*About Us Box*/
+.about_us_box
+{
+    padding: 10px;
+    text-align:left;
+}
+
+html 
+{
+    box-sizing: border-box;
+}
+
+.paragraph_1,
+.paragraph_2
+{
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;
+}
+
+  
+*, *:before, *:after 
+{
+    box-sizing: inherit;
+}
+  
+.car_pics_div
+{
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.car_timeline
+{
+    height: 800px;
+    width: 600px;
+    position: relative;
+    margin-top: -900px;
+    margin-left: 700px;
+}
+
+.ten_percent_off
+{
+    height: 620px;
+    width: 480px;
+    margin-right: -500px;
+    margin-top: 500px;
+    position: relative;
+}
+
+.covid_upcoming_event
+{
+    height: 350px;
+    width: 480px;
+    margin-right: 0px;
+    float: right;
+}
+
+.kia_pic
+{
+    height: 250px;
+    width: 280px;
+}
+.red-car_pic
+{
+    height: 180px;
+    width: 320px;
+    margin-right: 20px;
+}
+
+.row
+{
+    margin-top: 100px;
+}
+
+.column 
+{
+    width: 30%;
+    margin-bottom: 36px;
+    margin-left: 50px;
+    padding: 0 0px;
+}
+  
+.card 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0;
+
+}
+  
+.about-section
+{
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+  
+.container
+{
+    padding: 0 16px;
+}
+  
+.container::after, .row::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.title 
+{
+    color: grey;
+}
+  
+.contact_us_button 
+{
+    background:linear-gradient(to bottom, azure 5%, azure 100%);
+    border-color: black;
+    border-radius: 5px;
+	display:inline-block;
+    width: 110px;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 20px;
+	text-decoration:none;
+    margin-top: 0px;
+    margin-left: 12px;
+}
+  
+.contact_us_button:hover 
+{
+    background:linear-gradient(to bottom, rgb(0, 0, 100) 15%, rgb(0, 0, 100) 100%);
+	background-color:rgb(0, 0, 100);
+    color: white;
+}
+.contact_us_button:active 
+{
+    background-color: white;
+	position:relative;
+	top: 1px;
+}
+  
+@media screen and (max-width: 650px) 
+{
+    .column {
+      width: 100%;
+      display: block;
+    }
+}
+
+
+/*Address, Phone, and Email (Left side of the brands page)*/
+.contact_info
+{
+    position: relative;
+    margin-right: 600px;
+    bottom: 460px;
+    text-align: center;
+}
+.topic
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/*Brands Page*/
+
+/*Div Class for all the Logo Images*/
+.set_of_car_logo_images
+{
+    margin-left: 15px;
+}
+
+
+.car-logos_image
+{
+    position: relative;
+    right: 140px;
+    width: 650px;
+    height: 400px;
+    margin-bottom: 100px;
+}
+#car_logo1_chevrolet
+{
+    width: 250px;
+    height: 130px;
+    position: relative;
+    right: 10px;
+    bottom: 270px;
+}
+#car_logo2_maxus
+{
+    width: 120px;
+    height: 130px;
+    position: relative;
+    right: 100px;
+    bottom: 70px;
+}
+#car_logo3_ford
+{
+    width: 140px;
+    height: 130px;
+    position: relative;
+    right: 330px;
+    top: 140px;
+}
+#car_logo4_ferrari
+{
+    width: 120px;
+    height: 130px;
+    position: relative;
+    right: 20px;
+    bottom: 120px;
+}
+
+#car_logo5_bmw
+{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    right: 70px;
+    bottom: 300px;
+}
+#car_logo6_volkswagon
+{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    left: 550px;
+    bottom: 200px;
+}
+
+
+/*Dropdowns inside the 'Brands' button*/
+.Carvan_Car_Brands_Buttons_Dropdown
+{
+    border-color: black;
+    background-color: azure;
+	display:inline-block;
+    width: 120px;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+    border-radius: 5px;
+	padding:6px 23px;
+	text-decoration: none;
+    color: black;
+    margin-top: 0px;
+    margin-left: 23px;
+    margin-right: -40px;
+}
+.Carvan_Car_Brands_Buttons_Dropdown:hover
+{
+	background:linear-gradient(to bottom, rgb(0, 0, 100) 15%, rgb(0, 0, 100) 100%);
+	background-color:rgb(0, 0, 100);
+    color: white;
+    border-radius: 8px;
+}
+.Carvan_Car_Brands_Buttons_Dropdown:active
+{
+    background-color: white;
+	position:relative;
+	top: 1px;
+    border-radius: 8px;
+}
+  
+
+
+#href_links_brand_page
+{
+	background:linear-gradient(to bottom, azure 5%, azure 100%);
+	background-color:white;
+	border-radius:5px;
+    border-color: black;
+	display:inline-block;
+	cursor:pointer;
+    width: 120px;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 23px;
+	text-decoration:none;
+    margin-top: 0px;
+    margin-left: 23px;
+    margin-right: -40px;
+}
+
+#href_links_brand_page:hover
+{
+	background:linear-gradient(to bottom, rgb(0, 0, 100) 15%, rgb(0, 0, 100) 100%);
+	background-color:rgb(0, 0, 100);
+    color: white;
+}
+
+#href_links_brand_page:active
+{
+    background-color: white;
+	position:relative;
+	top:1px;
+}
+
+
+/*Brand Descriptions*/
+.carvan_h3_headings
+{
+    font-weight: bold;
+    font-size: xx-large;
+    text-align:left;
+}
+.brand_descriptions
+{
+    font-size: 15px;
+    text-align: left;
+    margin: 100px;
+    align-content: center;
+}
+
+
+
+
+
+/*'Brands' Button with dropdown*/
+@media all and (min-width: 992px) 
+{
+	.dropdown-menu:hover
+    { 
+        position: relative; 
+        background-color: white;	
+    }
+	.nav-item .submenu
+    { 
+		display: none;
+        text-decoration: none;
+		position: absolute;
+		left:100%; top:-7px;
+        background-color: white;
+	}
+	.nav-item .submenu-left
+    { 
+		right:100%; left:auto;
+	}
+    
+	.dropdown-menu > li
+    { 
+        background-color: white;
+    }
+	.dropdown-menu > li:hover > .submenu
+    { 
+        display: block;	    
+        color: azure;
+        border-radius: 8px;
+    }
+}	
+/* ============ desktop view .end// ============ */
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+/*Car List page*/
+/*Divs for each car from API*/
+.car_boxes
+{
+    float: left;
+    padding: 30px;
+    margin: 28px;
+    font-size: 23px;
+    align-content: center;
+}
+.cars
+{
+    width: 215px;
+    height: 145px;
+}
+#car-table-body
+{
+    margin-left: 55px;
+}
+
+.buy-btn,
+.cart-btn
+{
+    background:linear-gradient(to bottom, azure 5%, azure 100%);
+    border-color: black;
+    border-radius: 5px;
+	display:inline-block;
+    width: 140px;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 15px;
+	text-decoration:none;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+.buy-btn:hover,
+.cart-btn:hover
+{
+    background:linear-gradient(to bottom, rgb(0, 0, 100) 15%, rgb(0, 0, 100) 100%);
+	background-color:rgb(0, 0, 100);
+    color: white;
+}
+.buy-btn:active, 
+.cart-btn:active
+{
+    background-color: white;
+	position:relative;
+	top: 1px;
+}
+
+
+
+#btn_filter_all,
+#btn_filter_sedan,
+#btn_filter_suv,
+#btn_filter_coupe,
+#btn_filter_truck,
+#btn_filter_sports,
+#btn_filter_hatchback
+{
+    background:linear-gradient(to bottom, azure 5%, azure 100%);
+	background-color:white;
+	border-radius:5px;
+    border-color: black;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:14px;
+    width: 150px;
+	font-weight:bold;
+	padding:10px 12px;
+	text-decoration:none;
+    margin-left: 80px; 
+    margin-top: 15px;
+}
+
+
+#btn_filter_all:hover,
+#btn_filter_sedan:hover,
+#btn_filter_suv:hover,
+#btn_filter_coupe:hover,
+#btn_filter_truck:hover,
+#btn_filter_sports:hover,
+#btn_filter_hatchback:hover
+{
+	background:linear-gradient(to bottom, rgb(0, 0, 100) 15%, rgb(0, 0, 100) 100%);
+	background-color:rgb(0, 0, 100);
+    color: white;
+    border-radius: 8px;
+}
+#btn_filter_all:active,
+#btn_filter_sedan:active,
+#btn_filter_suv:active,
+#btn_filter_coupe:active,
+#btn_filter_truck:active,
+#btn_filter_sports:active,
+#btn_filter_hatchback:active
+{
+    background-color: white;
+	position:relative;
+	top: 1px;
+    border-radius: 8px;
+}
+  
+
+
+.filter_dropdown_menus
+{
+    background-color: whitesmoke;
+    height: 80px;
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Settings Page*/
+/*Contact Us Page*/
+.label_settings
+{
+    color: black;
+}
+ul,li
+{
+    color: black;
+}
+.avatar-xl img 
+{
+    width: 110px;
+}
+.rounded-circle 
+{
+    border-radius: 50% !important;
+}
+img 
+{
+    vertical-align: middle;
+    border-style: none;
+}
+.text-muted 
+{
+    color: black !important;
+}
+.text-muted 
+{
+    font-weight: 300;
+}
+.form-control 
+{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d5154;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.contact_info
+{
+    margin-right: 1100px;
+    margin-top: -15px;
+}
+#comment
+{
+    width: 200px;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+/*Bottom content of each page*/
+.globe
+{
+    margin-left: 1640px;
+    margin-top: -27px;
+}
+
+
+.country
+{
+    width: 200px;
+    margin-left: 1455px;
+    margin-top: -30px;
+}
