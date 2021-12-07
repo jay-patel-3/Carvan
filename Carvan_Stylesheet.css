@@ -434,45 +434,9 @@ html
 
 
 /*Dropdowns inside the 'Brands' button*/
-.Carvan_Car_Brands_Buttons_Dropdown
-{
-    border-color: black;
-    background-color: azure;
-	display:inline-block;
-    width: 120px;
-	cursor:pointer;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-    border-radius: 5px;
-	padding:6px 23px;
-	text-decoration: none;
-    color: black;
-    margin-top: 0px;
-    margin-left: 23px;
-    margin-right: -40px;
-}
-.Carvan_Car_Brands_Buttons_Dropdown:hover
-{
-	background:linear-gradient(to bottom, rgb(0, 0, 100) 15%, rgb(0, 0, 100) 100%);
-	background-color:rgb(0, 0, 100);
-    color: white;
-    border-radius: 8px;
-}
-.Carvan_Car_Brands_Buttons_Dropdown:active
-{
-    background-color: white;
-	position:relative;
-	top: 1px;
-    border-radius: 8px;
-}
-  
-
-
-#href_links_brand_page
+.href_links_brand_page_dropdown
 {
 	background:linear-gradient(to bottom, azure 5%, azure 100%);
-	background-color:white;
 	border-radius:5px;
     border-color: black;
 	display:inline-block;
@@ -489,19 +453,96 @@ html
     margin-right: -40px;
 }
 
-#href_links_brand_page:hover
+.href_links_brand_page_dropdown:hover
 {
 	background:linear-gradient(to bottom, rgb(0, 0, 100) 15%, rgb(0, 0, 100) 100%);
-	background-color:rgb(0, 0, 100);
+    background-color: rgb(0, 0, 100);
     color: white;
 }
 
-#href_links_brand_page:active
+.href_links_brand_page_dropdown:active
 {
     background-color: white;
 	position:relative;
 	top:1px;
 }
+
+
+#href_links_brand_page_make,
+#href_links_brand_page_style,
+#href_links_brand_page_year
+{
+	background:linear-gradient(to bottom, azure 5%, azure 100%);
+	border-radius:5px;
+    border-color: black;
+	display:inline-block;
+	cursor:pointer;
+    width: 120px;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 23px;
+	text-decoration:none;
+    margin-top: 0px;
+    margin-left: 23px;
+    margin-right: -40px;
+}
+#href_links_brand_page_make:hover,
+#href_links_brand_page_style:hover,
+#href_links_brand_page_year:hover
+{
+	background:linear-gradient(to bottom, rgb(0, 0, 100) 15%, rgb(0, 0, 100) 100%);
+    background-color: rgb(0, 0, 100);
+    color: white;
+}
+
+#href_links_brand_page_make:active,
+#href_links_brand_page_style:active,
+#href_links_brand_page_year:active
+{
+    background-color: white;
+	position:relative;
+	top:1px;
+}
+
+
+#sub_href_links_brand_page_dropdown
+{
+	background:linear-gradient(to bottom, azure 5%, azure 100%);
+	border-radius:5px;
+    border-color: black;
+	display:inline-block;
+	cursor:pointer;
+    width: 120px;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 23px;
+	text-decoration:none;
+    margin-top: 0px;
+    margin-left: 23px;
+    margin-right: -40px;
+}
+
+#sub_href_links_brand_page_dropdown:hover
+{
+	background:linear-gradient(to bottom, rgb(0, 0, 100) 15%, rgb(0, 0, 100) 100%);
+    background-color: rgb(0, 0, 100);
+    color: white;
+}
+
+#sub_href_links_brand_page_dropdown:active
+{
+    background-color: white;
+	position:relative;
+	top:1px;
+}
+
+
+
+
 
 
 /*Brand Descriptions*/
