@@ -1,2 +1,0 @@
-# Carvan
-The ‘CARVAN’ is largest online car market. It caters to needs of everyone, be it a family, business or individuals. This initiative is aimed towards providing information and details about CAR’s to buyers.  The site provides details and specifications of various models offered by the companies. It also provide pictures and images to have a better look.  ‘CARVAN’ is looking to restructure the entire website to provide information and also connect with prospective customers.
