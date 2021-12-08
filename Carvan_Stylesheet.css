@@ -33,6 +33,44 @@ body
 {
     color: blue;
 }
+.login_form
+{
+    position: relative;
+    align-content: center;
+}
+
+
+#Carvan_Login
+{
+    background:linear-gradient(to bottom, azure 5%, azure 100%);
+	background-color:white;
+	border-radius:5px;
+    border-color: black;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 23px;
+	text-decoration:none;
+    margin-top: 0px;
+    margin-left: 55px;
+}
+#Carvan_Login:hover
+{
+    background:linear-gradient(to bottom, rgb(0, 0, 100) 15%, rgb(0, 0, 100) 100%);
+	background-color:rgb(0, 0, 100);
+    color: white;
+}
+#Carvan_Login:active
+{
+    background-color: white;
+	position:relative;
+}
+
+
+
 
 
 
@@ -129,6 +167,7 @@ body
 	position:relative;
 	top:1px;
 }
+
 #Carvan_Settings
 {
     width: 95px;
@@ -140,6 +179,8 @@ body
 {
     margin-left: 0px;
 }
+
+
 
 
 
