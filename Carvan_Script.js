@@ -31,11 +31,16 @@ $(document).ready(function ()
 
 
 
+
+
+
     //Contact Us Buttons (About Us Page)
     $(".contact_us_button").click(function call_us() {
-        window.location.href = "https://outlook.live.com"
+        window.location.href = "https://outlook.live.com";
     })
 
+
+    
 
 
 
