@@ -92,7 +92,7 @@ $(document).ready(function ()
 
 
 
-
+    //Car Database
     let car = [
         {
             "Image": "Carvan_Images/JSON_Cars/hyundai-sonata.jpg",
