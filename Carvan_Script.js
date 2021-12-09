@@ -252,6 +252,13 @@ $(document).ready(function ()
             "ID": 944
         },
         {
+            "Image": "Carvan_Images/JSON_Cars/2019-Nissan-370z-Nismo.png",
+            "Name": "2019 Nissan 370Z Nismo",
+            "Bodystyle": "Sports Car",
+            "Price": "101,042",
+            "ID": 921
+        },
+        {
             "Image": "Carvan_Images/JSON_Cars/2021-Ford-EcoSport.jpg",
             "Name": "2021 Ford EcoSport",
             "Bodystyle": "SUV",
