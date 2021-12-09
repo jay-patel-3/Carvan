@@ -273,7 +273,7 @@ $(document).ready(function ()
             "ID": 810
         },
         {
-            "Image": "/Carvan/Carvan_Images/JSON_Cars/2019-Nissan-370Z-Nismo.png",
+            "Image": "Carvan_Images/JSON_Cars/2019-Nissan-370Z-Nismo.png",
             "Name": "2019 Nissan 370Z Nismo",
             "Bodystyle": "Sports Car",
             "Price": "101,042",
