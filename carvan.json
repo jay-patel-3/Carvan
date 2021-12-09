@@ -178,13 +178,6 @@
 		"ID": 810
 	},
 	{
-		"Image": "Carvan_Images/JSON_Cars/2019-Nissan-370Z-Nismo.png",
-		"Name": "2019 Nissan 370Z Nismo",
-		"Bodystyle": "Sports Car",
-		"Price": "101,042",
-		"ID": 921
-	},
-	{
 		"Image": "Carvan_Images/JSON_Cars/2020-bmw-x6.jpg",
 		"Name": "2020 BMW X6",
 		"Bodystyle": "SUV",
